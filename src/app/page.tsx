@@ -164,44 +164,55 @@ export default function Home() {
                 </svg>
                 <span>{t.whatsappButton}</span>
               </a>
-              {/* Ícones das Redes Sociais via CDN */}
-<div className="flex items-center justify-center gap-4 mt-4">
-  <a
-    href="https://instagram.com"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg"
-      alt="Instagram"
-      className="w-8 h-8 hover:opacity-80 transition"
-    />
-  </a>
+              {/* Ícones das Redes Sociais via CDN + Link do Site */}
+              <div className="flex items-center justify-center gap-4 mt-4">
+              <a
+                href="https://www.instagram.com/brclog/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg"
+                  alt="Instagram"
+                  className="w-8 h-8 hover:opacity-80 transition"
+                />
+              </a>
+              
+              <a
+                href="https://web.facebook.com/brclog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/facebook.svg"
+                  alt="Facebook"
+                  className="w-8 h-8 hover:opacity-80 transition"
+                />
+              </a>
+              
+              <a
+                href="https://www.linkedin.com/company/brclog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg"
+                  alt="LinkedIn"
+                  className="w-8 h-8 hover:opacity-80 transition"
+                />
+              </a>
+              
+              {/* Link para o site */}
+              <a
+                href="https://www.brclog.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 font-semibold hover:underline text-sm sm:text-base"
+              >
+                Visitar site
+              </a>
+              </div>
 
-  <a
-    href="https://facebook.com"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/facebook.svg"
-      alt="Facebook"
-      className="w-8 h-8 hover:opacity-80 transition"
-    />
-  </a>
-
-  <a
-    href="https://linkedin.com"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg"
-      alt="LinkedIn"
-      className="w-8 h-8 hover:opacity-80 transition"
-    />
-  </a>
-</div>
 
 
             </div>
