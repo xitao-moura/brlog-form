@@ -207,9 +207,12 @@ export default function Home() {
                 href="https://www.brclog.com.br"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 font-semibold hover:underline text-sm sm:text-base"
               >
-                Visitar site
+                <img
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/internetexplorer.svg"
+      alt="Website"
+      className="w-8 h-8 hover:opacity-80 transition"
+    />
               </a>
               </div>
 
