@@ -164,19 +164,17 @@ export default function Home() {
                 </svg>
                 <span>{t.whatsappButton}</span>
               </a>
-              {/* Ícones das Redes Sociais */}
+              {/* Ícones das Redes Sociais via CDN */}
 <div className="flex items-center justify-center gap-4 mt-4">
   <a
     href="https://instagram.com"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Image
-      src="/icons/instagram.png"
+    <img
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg"
       alt="Instagram"
-      width={32}
-      height={32}
-      className="hover:opacity-80 transition"
+      className="w-8 h-8 hover:opacity-80 transition"
     />
   </a>
 
@@ -185,12 +183,10 @@ export default function Home() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Image
-      src="/icons/facebook.png"
+    <img
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/facebook.svg"
       alt="Facebook"
-      width={32}
-      height={32}
-      className="hover:opacity-80 transition"
+      className="w-8 h-8 hover:opacity-80 transition"
     />
   </a>
 
@@ -199,15 +195,14 @@ export default function Home() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Image
-      src="/icons/linkedin.png"
+    <img
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg"
       alt="LinkedIn"
-      width={32}
-      height={32}
-      className="hover:opacity-80 transition"
+      className="w-8 h-8 hover:opacity-80 transition"
     />
   </a>
 </div>
+
 
             </div>
 
