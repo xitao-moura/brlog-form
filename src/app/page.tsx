@@ -164,6 +164,51 @@ export default function Home() {
                 </svg>
                 <span>{t.whatsappButton}</span>
               </a>
+              {/* Ícones das Redes Sociais */}
+<div className="flex items-center justify-center gap-4 mt-4">
+  <a
+    href="https://instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      src="/icons/instagram.png"
+      alt="Instagram"
+      width={32}
+      height={32}
+      className="hover:opacity-80 transition"
+    />
+  </a>
+
+  <a
+    href="https://facebook.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      src="/icons/facebook.png"
+      alt="Facebook"
+      width={32}
+      height={32}
+      className="hover:opacity-80 transition"
+    />
+  </a>
+
+  <a
+    href="https://linkedin.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      src="/icons/linkedin.png"
+      alt="LinkedIn"
+      width={32}
+      height={32}
+      className="hover:opacity-80 transition"
+    />
+  </a>
+</div>
+
             </div>
 
             {/* Formulário */}
